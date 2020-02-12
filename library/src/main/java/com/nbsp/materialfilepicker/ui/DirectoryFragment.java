@@ -94,7 +94,7 @@ public class DirectoryFragment extends Fragment {
                 }
             });
         } else {
-            floatingActionButton.setVisibility(View.INVISIBLE);
+            floatingActionButton.hide();
         }
     }
 
